@@ -1,7 +1,21 @@
 package com.productivework.app.model;
 
-import java.io.Serializable;
+public class TaskResponse{
 
-public class TaskResponse implements Serializable {
+   private String responsemsg;
 
+    public TaskResponse() {
+    }
+
+    public TaskResponse(String responsemsg) {
+        this.responsemsg = responsemsg;
+    }
+
+    public String getResponsemsg() {
+        return responsemsg;
+    }
+
+    public void setResponsemsg(String responsemsg) {
+        this.responsemsg = responsemsg;
+    }
 }
